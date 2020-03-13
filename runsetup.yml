@@ -1,5 +1,5 @@
 ---
- - hosts: ubuntu_host
+ - hosts: redhat-hosts
    become: yes
    roles:
    - apache
